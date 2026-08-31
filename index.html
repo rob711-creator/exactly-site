@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exactly — Support</title>
+<meta name="description" content="Support and contact for Exactly, a free number puzzle with no ads and no accounts.">
+<!-- Apple requires a live Support URL for every listing, and Google requires a
+     live Privacy Policy URL. This page is both, and is deliberately free of
+     fonts, analytics and third-party requests. -->
+<style>
+  :root{
+    --bg0:#171331; --bg1:#0d0a1a; --ink:#f4f1ff; --dim:#a49dc4;
+    --mint:#2ee6a8; --gold:#ffc53d; --line:rgba(255,255,255,.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:radial-gradient(130% 90% at 50% 0%, var(--bg0) 0%, var(--bg1) 70%) fixed;
+    color:var(--ink); min-height:100vh; line-height:1.65;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:0 20px 80px;
+  }
+  .wrap{max-width:720px;margin:0 auto}
+  header{padding:64px 0 30px}
+  .logo{
+    font-size:15px;font-weight:800;letter-spacing:7px;text-transform:uppercase;
+    background:linear-gradient(90deg,var(--gold),#ff5c7a 55%,#a78bfa);
+    -webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:16px;
+  }
+  h1{font-size:clamp(30px,6vw,44px);font-weight:800;letter-spacing:-.6px;line-height:1.12}
+  .tag{color:var(--dim);font-size:17px;margin-top:14px;max-width:34em}
+  h2{font-size:19px;font-weight:700;margin:40px 0 12px;color:#fff}
+  p{margin:0 0 14px;color:#ded9f2}
+  ul{margin:0 0 16px;padding-left:22px;color:#ded9f2}
+  li{margin-bottom:8px}
+  strong{color:#fff}
+  a{color:var(--mint)}
+  .rule{
+    background:rgba(255,255,255,.045);border:1px solid var(--line);
+    border-radius:14px;padding:20px 22px;margin:26px 0;
+  }
+  .rule p{margin:0;font-size:17px;color:#eae6ff}
+  .tiles{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .t{
+    width:44px;height:44px;border-radius:11px;display:grid;place-items:center;
+    font-weight:800;font-size:20px;color:#003824;
+    background:linear-gradient(160deg,#86ffd9,#2ee6a8 48%,#0dab77);
+    box-shadow:0 3px 0 #07845c, 0 0 18px rgba(46,230,168,.35);
+  }
+  .contact{
+    background:rgba(46,230,168,.07);border:1px solid rgba(46,230,168,.28);
+    border-radius:14px;padding:18px 20px;
+  }
+  .contact p{margin:0}
+  footer{margin-top:52px;padding-top:24px;border-top:1px solid var(--line);color:var(--dim);font-size:14px}
+  footer a{color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">Exactly</div>
+    <h1>Support</h1>
+    <p class="tag">A free number puzzle. No ads, no accounts, no in-app purchases,
+    and it works completely offline.</p>
+  </header>
+
+  <div class="rule">
+    <p><strong>One rule.</strong> A group of touching tiles showing the same number clears only
+    when the group's size equals that number. Tap a pair of 2s. Tap exactly three 3s. Four 4s.</p>
+    <div class="tiles"><div class="t">3</div><div class="t">3</div><div class="t">3</div></div>
+  </div>
+
+  <h2>Common questions</h2>
+  <p><strong>My group won't clear.</strong> The group has to be the exact size of its number —
+  not more, not fewer. Four touching 3s will not clear; exactly three will. Tapping a group that
+  cannot clear costs you nothing and tells you why.</p>
+  <p><strong>I lost my scores.</strong> Scores are saved on your device only, so uninstalling the
+  app or clearing its data removes them permanently. There is no account to restore from — which
+  is also why nothing about you is ever sent anywhere.</p>
+  <p><strong>The daily challenge won't let me replay.</strong> That is intentional: everyone gets
+  the same board each day and one attempt, so the scores mean something. A new board arrives at
+  midnight, your local time.</p>
+  <p><strong>No sound.</strong> Check the speaker button on the home screen, then your device's
+  silent switch and volume. Sound, music and vibration each have their own toggle in
+  Stats &amp; Settings.</p>
+  <p><strong>How do I replay the tutorial?</strong> "? How to play" on the home screen, any time.</p>
+
+  <h2>Contact</h2>
+  <div class="contact">
+    <p>Questions, bugs, or suggestions — email
+    <a href="mailto:rbotros13@gmail.com">rbotros13@gmail.com</a>.
+    Telling me your phone model and what you were doing helps a lot.</p>
+  </div>
+
+  <footer>
+    <a href="./privacy.html">Privacy Policy</a> · © 2026 Robert Botros
+  </footer>
+</div>
+</body>
+</html>
